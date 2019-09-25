@@ -1,0 +1,28 @@
+{
+  "name": "slackbot-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pizza",
+    "slack",
+    "bot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/events-api": "^2.3.0",
+    "@slack/web-api": "^5.1.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1",
+    "nconf": "^0.10.0",
+    "super-slack-bot": "^0.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
